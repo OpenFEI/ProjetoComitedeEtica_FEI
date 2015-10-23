@@ -1,0 +1,3 @@
+[submodule "Classe-Latex-FEI"]
+	path = Classe-Latex-FEI
+	url = https://github.com/OpenFEI/Classe-Latex-FEI.git
