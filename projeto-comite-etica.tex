@@ -1,6 +1,7 @@
 \documentclass[rascunho,xindy]{Classe-Latex-FEI/fei}
 \usepackage[utf8]{inputenc}
 \usepackage{xcolor,colortbl}
+\usepackage{pdflscape}
 
 \graphicspath{{images/}}
 
@@ -94,28 +95,30 @@ Por fim, os dados de sEMG de cada músculo analisado, de força na manopla da al
 
 Os riscos são mínimos não havendo nenhuma evidência específica de que o participante irá sofrer algum dano como consequência imediata ou tardia do estudo. Em função do esforço realizado durante as repetições dos movimentos, poderá haver um desconforto devido a uma leve fadiga muscular nos braços e ombros. Contudo, como forma de evitar será utilizado um período de descanso durante o ensaio caso.
 
+\begin{landscape}
+
 \chapter{Cronograma de Execução}
 
 \begin{table}[ht]
   \caption{Cronograma de trabalho}
   \begin{center}
-      \begin{tabular}{|l |l |l |l |l ||l |l |l |l ||l |l |l |l |}
+      \begin{tabular}{|l |l |l |l |l ||l |l |l |l ||l |l |l |l ||l |l |l |l ||l |l |l |l ||l |l |l |l ||}
       \hline
       % \T and \B would not work if it is placed here (needs to go inside cell)
-      Ano        & \multicolumn{4}{c||}{Ano 1} & \multicolumn{4}{c||}{Ano 2} & \multicolumn{4}{c|}{Ano 3} \\
+      Ano        & \multicolumn{12}{c||}{Ano 1} & \multicolumn{12}{c||}{Ano 2}\\
       \hline
-      Trimestre & T1 & T2 & T3 & T4 & T1 & T2 & T3 & T4 & T1 & T2 & T3 & T4 \\
+      Mês & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12\\
       \hline
-      Submissão do protocolo            & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} &   &   &   &   &   &   &   &   \\
-      Pesquisa bibliográfica            & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} &   &   &   &   &   &   &   &   \\
-      Seleção de grupo de voluntários   &   & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} &   &   &   &   &   &   &   \\
-      Realização de coleta de dados     &   &   &   & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} &   &   &   &   &   &   \\
-      Relatório Parcial                 &   &   &   & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} &   &   &   &   &   \\
-      Avaliação de resultados           &   &   &   &   & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} &   &   &   \\ 
-      Publicação                        &   &   &   &   &   & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} &   &   &   \\
-      Participação em congresssos       &   &   &   &   &   &   &   &   & \cellcolor{black!80} & \cellcolor{black!80} &   &   \\
+      Submissão do protocolo            & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   \\
+      Pesquisa bibliográfica            & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   \\
+      Seleção de grupo de voluntários   &   & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   \\
+      Realização de coleta de dados     &   &   &   & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   \\
+      Relatório Parcial                 &   &   &   & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   \\
+      Avaliação de resultados           &   &   &   &   & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   \\ 
+      Publicação                        &   &   &   &   &   & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   \\
+      Participação em congresssos       &   &   &   &   &   &   &   &   & \cellcolor{black!80} & \cellcolor{black!80} &   &   &   &   &   &   &   &   &   &   &   &   &   &   \\
       \hline
-      Relatório Final                   &   & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} \\
+      Relatório Final                   &   & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} & \cellcolor{black!80} &  \cellcolor{black!80} \\
       \hline
       \end{tabular}
   \end{center}
@@ -123,6 +126,8 @@ Os riscos são mínimos não havendo nenhuma evidência específica de que o par
 \end{table} 
 
 Duração: 24 meses.
+
+\end{landscape}
 
 \chapter{Financiamento}
 
