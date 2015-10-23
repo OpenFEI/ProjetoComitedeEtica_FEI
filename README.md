@@ -4,7 +4,7 @@ Template latex para o envio de projetos de pesquisa que envolvam seres humanos n
 
 ## Autores
 
-Maria Claudia F. de Castro
+Maria Claudia F. de Castro  
 Rodrigo P. Bechelli
 
 ## Agradecimentos
